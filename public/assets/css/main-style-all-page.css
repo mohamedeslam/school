@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* satar glopal style */
+/* body {
+  text-align: right;
+  font-family: 'Tajawal', sans-serif;
+} */
+
+#wrapper #content-wrapper {
+  background-color: #eff2f6;
+}
+
+.sidebar {
+  background-color: #0d6efd;
+  ;
+}
+
+/* Stsrt navbar */
+
+/* .castumP .dropdown-header {
+  color: #0d6efd;
+} */
+
+/* end navbar */
+
+.page-content-wrapper {
+  min-height: 86vh;
+  margin: 1.5rem 1.5rem;
+  padding: 1.5rem;
+  background: #ffff;
+  -webkit-box-shadow: 0px 0px 40px rgb(29 58 83 / 15%);
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%);
+  border-radius: 6px;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@media (max-width: 575.98px) {
+  #content .page-content-wrapper {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  .uploadremove {
+    font-size: 15px;
+    color: white;
+    opacity: 90%;
+    line-height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/* end glopal style */
+
+/* Card  Start*/
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.card-footer {
+  background-color: #fff;
+}
+
+/* Card end */
+
+.sidebar .nav-item .collapse {
+  position: absolute;
+  right: calc(6.5rem + 1.5rem / 2);
+}
+
+@media (min-width: 768px) {
+  .sidebar.toggled .nav-item .collapse {
+    position: absolute;
+    right: calc(6.5rem + 1.5rem / 2);
+  }
+
+  .sidebar .nav-item .collapse {
+    position: relative;
+    right: 0;
+  }
+
+  .sidebar .nav-item .nav-link,
+  .sidebar .sidebar-heading {
+    text-align: right;
+  }
+
+  .uploadremove {
+    font-size: 17px;
+    color: white;
+    opacity: 90%;
+    line-height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+}
+
+.accordion-button::after {
+  margin-right: auto;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-nav .castumP {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+/* end Sidedar And Topbar navbar */
+
+/* sarat Avatar and image   */
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: inline-block !important;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-xl {
+  height: 5.125rem;
+  width: 5.125rem;
+}
+
+/* end Avatar and image   */
+
+footer.sticky-footer {
+  padding: 1rem 0;
+}
+
+
+/* icon in home page */
+.col-md-6 .card .icon-lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card-header .btn-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+/* after form validation */
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  padding-right: 0.75rem;
+  padding-left: calc(1.5em + 0.75rem);
+  background-position: left calc(0.375em + 0.1875rem) center;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  padding-right: 0.75rem;
+  padding-left: calc(1.5em + 0.75rem);
+  background-position: left calc(0.375em + 0.1875rem) center;
+}
+
+
+.btn-light {
+  color: #000;
+  background-color: #eef0f2;
+  border-color: #eef0f2;
+}
+
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control,
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.fakepasswordicon {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,147 @@
+/* Profile Card */
+.display-6200px {
+  height: 200px !important;
+}
+
+.mt-n5 {
+  margin-top: -3rem !important;
+}
+
+.text-p {
+  color: #676a79;
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: inline-block;
+  -ms-flex-negative: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.text-edit {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  background-color: #0000008a;
+  color: #eee;
+  width: 76px;
+  height: 37px;
+  text-align: center;
+  border-radius: 0px 0px 100px 100px;
+  flex-wrap: nowrap;
+}
+.text-edit .input-group-text{
+  font-size:10px;
+  background-color:unset;
+  border: unset;
+
+}
+.avatar-xxl {
+  height: 5.125rem;
+  width: 5.125rem;
+}
+
+.uploadremove {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  background: #dc3545;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .avatar-xxl {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .text-edit {
+    position: absolute;
+    top: 51%;
+    right: 3%;
+    background-color: #0000008a;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border-radius: 0px 0px 105px 105px;
+    color: #eee;
+    font-size:17px;
+    flex-wrap: nowrap;
+  }
+  .text-edit .input-group-text{
+    font-size:15px;
+    background-color:unset;
+    border: unset;
+  cursor: pointer;
+  }
+}
+
+.btn-danger-soft {
+  color: #d6293e;
+  background-color: rgba(214, 41, 62, 0.1);
+}
+
+.btn-danger-soft:hover {
+  color: #eee;
+  background-color: #d6293e;
+}
+
+.nav-link {
+  display: block;
+  color: #676a79;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav.nav-bottom-line .nav-item {
+  margin-bottom: -2px;
+}
+
+.nav.nav-bottom-line .nav-item:first-child .nav-link {
+  padding-right: 0;
+}
+
+.nav.nav-bottom-line .nav-link {
+  border: transparent;
+  font-weight: 600;
+  padding: 0.75rem 0.975rem;
+  background: transparent;
+  border-bottom: 3px solid transparent;
+}
+
+.invalid-handel {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #dc3545;
+}
+
+.h-200px {
+  height: 200px !important;
+}
